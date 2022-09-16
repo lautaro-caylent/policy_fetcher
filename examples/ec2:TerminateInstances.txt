@@ -1,0 +1,9 @@
+
+Policy Name: AutoScalingServiceRolePolicy
+Policy ARN: arn:aws:iam::aws:policy/aws-service-role/AutoScalingServiceRolePolicy
+Allowed Actions for ec2:TerminateInstances:
+	- ec2:TerminateInstances
+Consumed by:
+	Policy Roles:
+		- Role Name: Example_Role_name
+		  Role ID: Example_Role_ID

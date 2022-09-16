@@ -1,0 +1,95 @@
+
+Policy Name: Example_Policy_Name
+Policy ARN: arn:aws:iam::000000000000:policy/service-role/Example_Policy_Name
+Allowed Actions for ec2:Delete:
+	- ec2:DeleteNetworkInterface
+Consumed by:
+	Policy Roles:
+		- Role Name: Example_Role_name
+		  Role ID: Example_Role_ID
+
+Policy Name: ClientVPNServiceRolePolicy
+Policy ARN: arn:aws:iam::aws:policy/aws-service-role/ClientVPNServiceRolePolicy
+Allowed Actions for ec2:Delete:
+	- ec2:DeleteNetworkInterface
+Consumed by:
+	Policy Roles:
+		- Role Name: Example_Role_name
+		  Role ID: Example_Role_ID
+
+Policy Name: AutoScalingServiceRolePolicy
+Policy ARN: arn:aws:iam::aws:policy/aws-service-role/AutoScalingServiceRolePolicy
+Allowed Actions for ec2:Delete:
+	- ec2:DeleteTags
+Consumed by:
+	Policy Roles:
+		- Role Name: Example_Role_name
+		  Role ID: Example_Role_ID
+
+Policy Name: AWSElasticLoadBalancingServiceRolePolicy
+Policy ARN: arn:aws:iam::aws:policy/aws-service-role/AWSElasticLoadBalancingServiceRolePolicy
+Allowed Actions for ec2:Delete:
+	- ec2:DeleteNetworkInterface
+Consumed by:
+	Policy Roles:
+		- Role Name: Example_Role_name
+		  Role ID: Example_Role_ID
+
+Policy Name: NetworkAdministrator
+Policy ARN: arn:aws:iam::aws:policy/job-function/NetworkAdministrator
+Allowed Actions for ec2:Delete:
+	- ec2:DeleteCarrierGateway
+	- ec2:DeleteEgressOnlyInternetGateway
+	- ec2:DeleteFlowLogs
+	- ec2:DeleteNatGateway
+	- ec2:DeleteNetworkInterface
+	- ec2:DeleteNetworkInterfacePermission
+	- ec2:DeletePlacementGroup
+	- ec2:DeleteSubnet
+	- ec2:DeleteTags
+	- ec2:DeleteVpc
+	- ec2:DeleteVpcEndpointConnectionNotifications
+	- ec2:DeleteVpcEndpointServiceConfigurations
+	- ec2:DeleteVpcEndpoints
+	- ec2:DeleteVpnConnection
+	- ec2:DeleteVpnConnectionRoute
+	- ec2:DeleteVpnGateway
+	- ec2:DeleteCustomerGateway
+	- ec2:DeleteDhcpOptions
+	- ec2:DeleteInternetGateway
+	- ec2:DeleteNetworkAcl
+	- ec2:DeleteNetworkAclEntry
+	- ec2:DeleteRoute
+	- ec2:DeleteRouteTable
+	- ec2:DeleteSecurityGroup
+	- ec2:DeleteVolume
+	- ec2:DeleteVpcPeeringConnection
+	- ec2:DeleteLocalGatewayRoute
+	- ec2:DeleteLocalGatewayRouteTableVpcAssociation
+	- ec2:DeleteTransitGateway
+	- ec2:DeleteTransitGatewayRoute
+	- ec2:DeleteTransitGatewayRouteTable
+	- ec2:DeleteTransitGatewayVpcAttachment
+Consumed by:
+	Policy Roles:
+		- Role Name: Example_Role_name
+		  Role ID: Example_Role_ID
+
+Policy Name: AWSVPCTransitGatewayServiceRolePolicy
+Policy ARN: arn:aws:iam::aws:policy/aws-service-role/AWSVPCTransitGatewayServiceRolePolicy
+Allowed Actions for ec2:Delete:
+	- ec2:DeleteNetworkInterface
+Consumed by:
+	Policy Roles:
+		- Role Name: Example_Role_name
+		  Role ID: Example_Role_ID
+
+Policy Name: AWSGlobalAcceleratorSLRPolicy
+Policy ARN: arn:aws:iam::aws:policy/aws-service-role/AWSGlobalAcceleratorSLRPolicy
+Allowed Actions for ec2:Delete:
+	- ec2:DeleteNetworkInterface
+	- ec2:DeleteSecurityGroup
+Consumed by:
+	Policy Roles:
+		- Role Name: Example_Role_name
+		  Role ID: Example_Role_ID

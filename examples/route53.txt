@@ -1,0 +1,109 @@
+
+Policy Name: ViewOnlyAccess
+Policy ARN: arn:aws:iam::aws:policy/job-function/ViewOnlyAccess
+Allowed Actions for route53:
+	- route53:Get*
+	- route53:List*
+	- route53domains:List*
+	- route53resolver:Get*
+	- route53resolver:List*
+Consumed by:
+	Policy Roles:
+		- Role Name: Example_Role_name
+		  Role ID: Example_Role_ID
+
+Policy Name: AWSSupportServiceRolePolicy
+Policy ARN: arn:aws:iam::aws:policy/aws-service-role/AWSSupportServiceRolePolicy
+Allowed Actions for route53:
+	- route53-recovery-readiness:getCell
+	- route53-recovery-readiness:getCellReadinessSummary
+	- route53-recovery-readiness:getReadinessCheck
+	- route53-recovery-readiness:getReadinessCheckResourceStatus
+	- route53-recovery-readiness:getReadinessCheckStatus
+	- route53-recovery-readiness:getRecoveryGroup
+	- route53-recovery-readiness:getRecoveryGroupReadinessSummary
+	- route53-recovery-readiness:listCells
+	- route53-recovery-readiness:listReadinessChecks
+	- route53-recovery-readiness:listRecoveryGroups
+	- route53-recovery-readiness:listResourceSets
+	- route53:getChange
+	- route53:getCheckerIpRanges
+	- route53:getGeoLocation
+	- route53:getHealthCheck
+	- route53:getHealthCheckCount
+	- route53:getHealthCheckLastFailureReason
+	- route53:getHealthCheckStatus
+	- route53:getHostedZone
+	- route53:getHostedZoneCount
+	- route53:getReusableDelegationSet
+	- route53:getTrafficPolicy
+	- route53:getTrafficPolicyInstance
+	- route53:getTrafficPolicyInstanceCount
+	- route53:listGeoLocations
+	- route53:listHealthChecks
+	- route53:listHostedZones
+	- route53:listHostedZonesByName
+	- route53:listHostedZonesByVpc
+	- route53:listResourceRecordSets
+	- route53:listReusableDelegationSets
+	- route53:listTrafficPolicies
+	- route53:listTrafficPolicyInstances
+	- route53:listTrafficPolicyInstancesByHostedZone
+	- route53:listTrafficPolicyInstancesByPolicy
+	- route53:listTrafficPolicyVersions
+	- route53domains:checkDomainAvailability
+	- route53domains:getContactReachabilityStatus
+	- route53domains:getDomainDetail
+	- route53domains:getOperationDetail
+	- route53domains:listDomains
+	- route53domains:listOperations
+	- route53domains:listTagsForDomain
+	- route53domains:viewBilling
+	- route53resolver:getFirewallConfig
+	- route53resolver:getFirewallDomainList
+	- route53resolver:getFirewallRuleGroup
+	- route53resolver:getFirewallRuleGroupAssociation
+	- route53resolver:getResolverDnssecConfig
+	- route53resolver:getResolverRulePolicy
+	- route53resolver:listFirewallConfigs
+	- route53resolver:listFirewallDomainLists
+	- route53resolver:listFirewallDomains
+	- route53resolver:listFirewallRuleGroupAssociations
+	- route53resolver:listFirewallRuleGroups
+	- route53resolver:listFirewallRules
+	- route53resolver:listResolverConfigs
+	- route53resolver:listResolverDnssecConfigs
+	- route53resolver:listResolverEndpointIpAddresses
+	- route53resolver:listResolverEndpoints
+	- route53resolver:listResolverRuleAssociations
+	- route53resolver:listResolverRules
+	- route53resolver:listTagsForResource
+Consumed by:
+	Policy Roles:
+		- Role Name: Example_Role_name
+		  Role ID: Example_Role_ID
+
+Policy Name: AWSTrustedAdvisorServiceRolePolicy
+Policy ARN: arn:aws:iam::aws:policy/aws-service-role/AWSTrustedAdvisorServiceRolePolicy
+Allowed Actions for route53:
+	- route53:GetAccountLimit
+	- route53:GetHealthCheck
+	- route53:GetHostedZone
+	- route53:ListHealthChecks
+	- route53:ListHostedZones
+	- route53:ListHostedZonesByName
+	- route53:ListResourceRecordSets
+Consumed by:
+	Policy Roles:
+		- Role Name: Example_Role_name
+		  Role ID: Example_Role_ID
+
+Policy Name: NetworkAdministrator
+Policy ARN: arn:aws:iam::aws:policy/job-function/NetworkAdministrator
+Allowed Actions for route53:
+	- route53:*
+	- route53domains:*
+Consumed by:
+	Policy Roles:
+		- Role Name: Example_Role_name
+		  Role ID: Example_Role_ID
