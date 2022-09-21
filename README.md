@@ -1,10 +1,10 @@
 # Policy Fetcher
-This humble script is meant to help you assess how many **attached** policies are using a given **policy action**, it will also list all the Groups, Users and Roles that consume these policies.
+This humble script is meant to help you make security assessment by checking how many **attached** policies are using a given **policy action**, it will also list all the Groups, Users and Roles that consume these policies and output everything into a formated text File.
 
-The script uses the provided **action** string to look for any policies that contain given action. It's **not** necessarily a complete action, see the examples directory for outputs given the following action strings:
-- route53
-- ec2:Delete
-- ec2:TerminateInstances 
+The script uses the provided **action** string to look for any policies that contain given action. It's **not** necessarily a complete action, you can use a "wildcard" search by providing an incomplete action. See the examples directory for outputs given the following action strings:
+- "**route53**": Every action that contains route53 in it, this would search for all route53 related policies (E.g. route53:*).
+- "**ec2:Delete**": Every delete action over EC2 resources (E.g. ec2:DeleteLaunchTemplate, ec2:DeleteNatGateway, ec2:DeleteRouteTable).
+- "**ec2:TerminateInstances**": Only policies allowing this specific action.
 
 ## Prerequisites
  - Have CLI access to the AWS account where to look for the policies.
